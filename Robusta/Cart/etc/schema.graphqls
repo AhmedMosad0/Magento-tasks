@@ -1,0 +1,3 @@
+type Query{
+    customerComment: String! @resolver(class: "\\Robusta\\Cart\\Model\\Resolver\\CustomerCommentResolver")
+}
